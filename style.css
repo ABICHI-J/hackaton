@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 99vw;
+    height: 450vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.background1 {
+    background-image: url("background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentationminetest {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    height: 70%;
+    left: 10%;
+    z-index: 1;
+}
+
+h1, p {
+   color: white; 
+   margin-bottom: 3%;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 300%;
+    line-height: 130%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 110%;
+    line-height: 130%;
+}
+
+.boutondownload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 50%;
+    height: 25%;
+    background-color: green;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.boutondownload p {
+    font-size: 120%;
+}
+
+.boutondownload:hover {
+    background-color: black;
+    width: 51%;
+    height: 26%;
+}
+
+.background2 {
+    background-image: url("fondminecraft.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 110vh;
+}
+
+.extension1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 60%;
+}
+
+.extension2 {
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+
+.imgextension {
+    width: 100%;
+    height: 100%;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.imgextension:hover {
+    width: 103%;
+    height: 103%;
+    
+}
+
+.presentationextension {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.presentationextension h1 {
+    font-size:  280%;
+    margin-bottom: 5%;
+}
+
+.presentationextension p {
+    font-size: 120%;
+}
+
+.background3 {
+    background-image: url("fondminecraft.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.champions1 {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("fondneige.png");
+    width: 70%;
+    height: 85%;
+    text-align: center;
+}
+
+.champions1 h1 {
+    margin-top: 5%;
+    margin-bottom: 4%;
+    color: white;
+    font-size: 220%;
+}
+
+.champions2 {
+    width: 75%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.champions3 {
+    width: 28%;
+}
+
+.champions3 h1 {
+    font-size: 120%;
+    color: green;
+}
+
+.champions3 h1:hover {
+    color: white;
+}
+
+.champions3 p {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: white;
+    font-size: small;
+}
+
+.imgchampions {
+    width: 100%;
+    height: 100%;
+    transition: width 0.3s, height 0.3s, transform 0.3s;
+} 
+
+.imgchampions:hover {
+    width: 105%;
+    height: 105%;
+}
+
+.background4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("fondminecraft.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.noel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("fondneige2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 85%;
+    text-align: center;
+}
+
+
+.noel h1 {
+    margin-top: 5%;
+    margin-bottom: 4%;
+    color: white;
+    font-size: 200%;
+}
+
+.noel2 {
+    width: 90%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.championsnoel1 {
+    width: 45%;
+    height: 100%;
+}
+
+.championsnoel2 {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.championsnoel3 {
+    width: 30%;
+    height: 100%;
+}
+
+.imgchampionsnoel {
+    width: 100%;
+    height: 100%;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.imgchampionsnoel:hover {
+    width: 105%;
+    height: 105%;
+}
+
+.map {
+    width: 45%;
+    height: 100%;
+}
+
+.map2 {
+    width: 100%;
+    height: 70%;
+}
+
+.imgmap {
+    width: 100%;
+    height: 100%;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.imgmap:hover {
+    width: 105%;
+    height: 105%;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textefooter {
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+    line-height: 120%;
+    height: 50%;
+    font-family: 'arial', sans-serif;
+    font-size: 100%;
+}
+
